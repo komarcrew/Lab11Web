@@ -65,3 +65,6 @@ File app/view/template/footer.php<p>
  ![image](https://user-images.githubusercontent.com/101499377/172686450-88672565-8193-4ae9-87cf-b8a80148ef0a.png)<p>
 Kemudian ubah file app/view/about.php seperti berikut.<p>
 ![image](https://user-images.githubusercontent.com/101499377/172687282-d3bbf842-7a9a-4950-9e06-1070d699666c.png)<p>
+ Selanjutnya refresh tampilan pada alamat http://localhost:8080/about<p>
+ ![image](https://user-images.githubusercontent.com/101499377/172689402-e8b57ba0-0eed-442d-910c-26a80a693302.png)
+
