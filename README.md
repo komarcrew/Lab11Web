@@ -6,7 +6,7 @@
 ### Langkah-langkah<p>
 ### Aktifkan Ektensi<p>
   Aktifkan ektensi <p>melalui aplikasi XAMPP pilih menu config pada bagian Apache 
- ![image](https://user-images.githubusercontent.com/101499377/172617459-c7f6de0<p>7-04f1-443f-9f3e-4874712739b9.png)
+ ![image](https://user-images.githubusercontent.com/101499377/172617459-c7f6de07-04f1-443f-9f3e-4874712739b9.png)
 Lalu pada bagian extention, hilangkan tanda ; (titik koma) pada ekstensi yang akan diaktifkan. Kemudian simpan ke<p>mbali filenya dan restart Apache web server.
   ![image](https://user-images.githubusercontent.com/101499377/172618178-f956abed-c53a-4b4a-bdf2-dea8390551b7.png)<p>
 ### Instalasi CodeIgniter 4<p>
