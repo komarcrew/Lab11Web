@@ -23,3 +23,17 @@ dan perintah untuk menjalankan CLI Codeigniter adalah : php spark
 ### Mengaktifkan Mode Debugging
   Codeigniter 4 menyediakan fitur debugging untuk memudahkan developer untuk 
 mengetahui pesan error apabila terjadi kesalahan dalam membuat kode program.Secara default fitur ini belum aktif. Ketika terjadi error pada aplikasi akan ditampilkan pesan kesalahan seperti berikut.<p>
+![image](https://user-images.githubusercontent.com/101499377/172628125-b25fc05d-c118-44ba-ab82-3e428896a1e1.png)<p>
+Semua jenis error akan ditampilkan sama. Untuk memudahkan mengetahui jenis errornya, maka perlu diaktifkan mode debugging dengan mengubah nilai konfigurasi pada environment variable.Ubah nama file env menjadi .env kemudian buka file tersebut dan ubah nilai variable 
+CI_ENVIRINMENT menjadi development.<p>
+![image](https://user-images.githubusercontent.com/101499377/172628654-a16ce9e1-e0a2-4f4b-a65e-41e459c89314.png)<p>
+dan hasil nya menjadi eror seperti berikut :<p>
+![image](https://user-images.githubusercontent.com/101499377/172629940-8e1b763d-a472-4e2a-b603-5f325331e04f.png)<p>
+### Membuat Route Baru.<p>
+ Tambahkan kode berikut di dalam Routes.php<p>
+![image](https://user-images.githubusercontent.com/101499377/172631770-cdc119ff-1f1e-4621-a810-3c534831679b.png)<p>
+### Membuat Controller.<p>
+ Selanjutnya adalah membuat Controller Page. Buat file baru dengan nama page.php pada direktori Controller kemudian isi kodenya seperti berikut.<p>
+![image](https://user-images.githubusercontent.com/101499377/172645175-bc25f46f-d4a3-4bb4-bfe6-8897a929b955.png)<p>
+### 
+
