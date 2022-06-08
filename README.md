@@ -34,6 +34,5 @@ dan hasil nya menjadi eror seperti berikut :<p>
 ![image](https://user-images.githubusercontent.com/101499377/172631770-cdc119ff-1f1e-4621-a810-3c534831679b.png)<p>
 ### Membuat Controller.<p>
  Selanjutnya adalah membuat Controller Page. Buat file baru dengan nama page.php pada direktori Controller kemudian isi kodenya seperti berikut.<p>
-![image](https://user-images.githubusercontent.com/101499377/172645175-bc25f46f-d4a3-4bb4-bfe6-8897a929b955.png)<p>
 ### 
 
