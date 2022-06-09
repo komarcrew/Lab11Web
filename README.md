@@ -65,4 +65,7 @@ File app/view/template/footer.php<p>
  ![image](https://user-images.githubusercontent.com/101499377/172686450-88672565-8193-4ae9-87cf-b8a80148ef0a.png)<p>
 Kemudian ubah file app/view/about.php seperti berikut.<p>
 ![image](https://user-images.githubusercontent.com/101499377/172687282-d3bbf842-7a9a-4950-9e06-1070d699666c.png)<p>
-
+dan ini hasilnya<p>
+ ![image](https://user-images.githubusercontent.com/101499377/172839688-6721a70d-d335-442b-a4e6-a36c93ddbf32.png)
+### PERTANYAAN DAN TUGAS
+Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga semua link pada navigasi header dapat menampilkan tampilan dengan layout yang sama.<p>
