@@ -69,3 +69,6 @@ dan ini hasilnya<p>
  ![image](https://user-images.githubusercontent.com/101499377/172839688-6721a70d-d335-442b-a4e6-a36c93ddbf32.png)
 ### PERTANYAAN DAN TUGAS
 Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga semua link pada navigasi header dapat menampilkan tampilan dengan layout yang sama.<p>
+![image](https://user-images.githubusercontent.com/101499377/172846002-a728d558-d8c2-48ef-adfb-ceeb39e33711.png)<p>
+ ![image](https://user-images.githubusercontent.com/101499377/172846058-fb342773-d36c-4cf2-acae-04564012c1a7.png)
+
