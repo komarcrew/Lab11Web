@@ -86,7 +86,7 @@ Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga
   ![image](https://user-images.githubusercontent.com/101499377/173874964-81c4fb38-bd09-44fa-bc9a-5c9da7669f1a.png)
 ### Membuat View.
   Buat direktori baru dengan nama artikel pada direktori app/views, kemudian buat file baru dengan nama index.php.<p>
-![image](https://user-images.githubusercontent.com/101499377/173877203-72692f37-cffc-4222-b79e-72414cba0f3d.png)
+![image](https://user-images.githubusercontent.com/101499377/173877203-72692f37-cffc-4222-b79e-72414cba0f3d.png)<p>
 Selanjutnya buka browser kembali, dengan mengakses url http://localhost:8080/artikel<p>
   ![image](https://user-images.githubusercontent.com/101499377/173877404-66456ef7-c1e6-4ce6-9a12-d0c9c9371e2e.png)
 Belum ada data yang diampilkan. Kemudian coba tambahkan beberapa data pada database agar dapat ditampilkan datanya.<p>
