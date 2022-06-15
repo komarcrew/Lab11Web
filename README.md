@@ -75,8 +75,8 @@ Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga
  Untuk memulai membuat aplikasi CRUD sederhana, yang perlu disiapkan adalah database server menggunakan MySQL. Pastikan MySQL Server sudah dapat dijalankan melalui XAMPP.<p>
 ### Membuat Database: Studi Kasus Data Artikel<p>
  ![image](https://user-images.githubusercontent.com/101499377/173872336-2f0651f3-efa0-483e-98de-5962d79d0809.png)
-### Konfigurasi koneksi database
- Selanjutnya membuat konfigurasi untuk menghubungkan dengan database server. Konfigurasi dapat dilakukan dengan dua cara, yaitu pada file app/config/database.php atau menggunakan file .env. Pada praktikum ini kita gunakan konfigurasi pada file .env.Lalu cari pada line DATABASE dan hilangkan tanda pagar (#) 
+### Konfigurasi koneksi database<p>
+ Selanjutnya membuat konfigurasi untuk menghubungkan dengan database server. Konfigurasi dapat dilakukan dengan dua cara, yaitu pada file app/config/database.php atau menggunakan file .env. Pada praktikum ini kita gunakan konfigurasi pada file .env.Lalu cari pada line DATABASE dan hilangkan tanda pagar (#)<p>
 ![image](https://user-images.githubusercontent.com/101499377/173873603-d430c5db-cb31-4df4-b429-2c26495d4434.png)
 ### Membuat Model.
  Selanjutnya adalah membuat Model untuk memproses data Artikel. Buat file baru pada direktori app/Models dengan nama ArtikelModel.php<p>
@@ -85,9 +85,9 @@ Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga
   Buat Controller baru dengan nama Artikel.php pada direktori app/Controllers.
   ![image](https://user-images.githubusercontent.com/101499377/173874964-81c4fb38-bd09-44fa-bc9a-5c9da7669f1a.png)
 ### Membuat View.
-  Buat direktori baru dengan nama artikel pada direktori app/views, kemudian buat file baru dengan nama index.php.
+  Buat direktori baru dengan nama artikel pada direktori app/views, kemudian buat file baru dengan nama index.php.<p>
 ![image](https://user-images.githubusercontent.com/101499377/173877203-72692f37-cffc-4222-b79e-72414cba0f3d.png)
-Selanjutnya buka browser kembali, dengan mengakses url http://localhost:8080/artikel
+Selanjutnya buka browser kembali, dengan mengakses url http://localhost:8080/artikel<p>
   ![image](https://user-images.githubusercontent.com/101499377/173877404-66456ef7-c1e6-4ce6-9a12-d0c9c9371e2e.png)
 Belum ada data yang diampilkan. Kemudian coba tambahkan beberapa data pada database agar dapat ditampilkan datanya.<p>
  ![image](https://user-images.githubusercontent.com/101499377/173878120-026df1b2-9294-4325-817d-e47fb5f571b4.png)
