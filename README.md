@@ -71,4 +71,18 @@ dan ini hasilnya<p>
 Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga semua link pada navigasi header dapat menampilkan tampilan dengan layout yang sama.<p>
 ![image](https://user-images.githubusercontent.com/101499377/172846002-a728d558-d8c2-48ef-adfb-ceeb39e33711.png)<p>
  ![image](https://user-images.githubusercontent.com/101499377/172846058-fb342773-d36c-4cf2-acae-04564012c1a7.png)
-
+## Praktikum 12: Framework Lanjutan (CRUD)
+ Untuk memulai membuat aplikasi CRUD sederhana, yang perlu disiapkan adalah database server menggunakan MySQL. Pastikan MySQL Server sudah dapat dijalankan melalui XAMPP.<p>
+### - Membuat Database: Studi Kasus Data Artikel<p>
+ ![image](https://user-images.githubusercontent.com/101499377/173872336-2f0651f3-efa0-483e-98de-5962d79d0809.png)
+### - Konfigurasi koneksi database
+ Selanjutnya membuat konfigurasi untuk menghubungkan dengan database server. Konfigurasi dapat dilakukan dengan dua cara, yaitu pada file app/config/database.php atau menggunakan file .env. Pada praktikum ini kita gunakan konfigurasi pada file .env.Lalu cari pada line DATABASE dan hilangkan tanda pagar (#) 
+![image](https://user-images.githubusercontent.com/101499377/173873603-d430c5db-cb31-4df4-b429-2c26495d4434.png)
+### - Membuat Model.
+ Selanjutnya adalah membuat Model untuk memproses data Artikel. Buat file baru pada direktori app/Models dengan nama ArtikelModel.php<p>
+  ![image](https://user-images.githubusercontent.com/101499377/173874442-3ce73666-cbc2-4d17-90cc-c7e71614fac2.png)
+### - Membuat Controller.
+  Buat Controller baru dengan nama Artikel.php pada direktori app/Controllers.
+  ![image](https://user-images.githubusercontent.com/101499377/173874964-81c4fb38-bd09-44fa-bc9a-5c9da7669f1a.png)
+### - Membuat View.
+  Buat direktori baru dengan nama artikel pada direktori app/views, kemudian buat file baru dengan nama index.php.
