@@ -110,3 +110,18 @@ Tambahkan routing untuk menu admin seperti berikut:<p>
  ![image](https://user-images.githubusercontent.com/101499377/174126811-c5e7e927-0499-445f-8c7c-66024110d329.png)<p>
 Akses menu admin dengan url http://localhost:8080/admin/artikel<p>
   ![image](https://user-images.githubusercontent.com/101499377/174127057-66f27c8a-7a45-4a84-b7b0-6f929a3ea58c.png)<p>
+### Menambah Data Artikel
+   Tambahkan fungsi/method baru pada Controller Artikel dengan nama add()<p>
+    ![image](https://user-images.githubusercontent.com/101499377/174128338-6b669aaf-2d9c-4b77-ae5b-10a8c3e38eef.png)<p>
+Kemudian buat view untuk form tambah dengan nama form_add.php<p>
+ ![image](https://user-images.githubusercontent.com/101499377/174128703-f825b2a6-cba8-4a19-b729-fc7ea071216c.png)<p>
+![image](https://user-images.githubusercontent.com/101499377/174128872-0b678576-f1e0-471d-b22c-86ca375f446e.png)
+### Mengubah Data.
+  Tambahkan fungsi/method baru pada Controller Artikel dengan nama edit()<p>
+   ![image](https://user-images.githubusercontent.com/101499377/174129395-5b90d246-5e22-41af-86fa-f3ea81ec546b.png)<p>
+Kemudian buat view untuk form tambah dengan nama form_edit.php<p>
+ ![image](https://user-images.githubusercontent.com/101499377/174130115-8c18c7be-f5c2-4aab-8338-adc25c5ca424.png)<p>
+![image](https://user-images.githubusercontent.com/101499377/174130196-71b951cd-793b-46ea-ade8-432b125972f8.png)<p>
+### Menghapus Data
+ Tambahkan fungsi/method baru pada Controller Artikel dengan nama delete()<p>
+  ![image](https://user-images.githubusercontent.com/101499377/174130548-c58d4073-ddc1-480a-823b-1cfc71e1e58d.png)
