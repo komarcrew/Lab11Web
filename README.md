@@ -101,3 +101,12 @@ Belum ada data yang diampilkan. Kemudian coba tambahkan beberapa data pada datab
    Buka Kembali file app/config/Routes.php, kemudian tambahkan routing untuk artikel detail.<p>
     ![image](https://user-images.githubusercontent.com/101499377/173882222-6d30edff-bc3a-4b80-82ff-cdc3d2efb703.png)
 ![image](https://user-images.githubusercontent.com/101499377/173883816-344b557d-6fb8-4676-8b40-f3d58b28673f.png)
+### Membuat Menu Admin.
+    Menu admin adalah untuk proses CRUD data artikel. Buat method baru pada Controller Artikel dengan nama admin_index().<p>
+     ![image](https://user-images.githubusercontent.com/101499377/174116709-00fae657-c153-446d-9f46-e113ad21b4f7.png)<p>
+Selanjutnya buat view untuk tampilan admin dengan nama admin_index.php<p>
+ ![image](https://user-images.githubusercontent.com/101499377/174117612-a5009dcd-798b-4b87-945a-87d97eb8e2be.png)<p>
+Tambahkan routing untuk menu admin seperti berikut:<p>
+ ![image](https://user-images.githubusercontent.com/101499377/174126811-c5e7e927-0499-445f-8c7c-66024110d329.png)<p>
+Akses menu admin dengan url http://localhost:8080/admin/artikel<p>
+  ![image](https://user-images.githubusercontent.com/101499377/174127057-66f27c8a-7a45-4a84-b7b0-6f929a3ea58c.png)<p>
