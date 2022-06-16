@@ -102,7 +102,7 @@ Belum ada data yang diampilkan. Kemudian coba tambahkan beberapa data pada datab
     ![image](https://user-images.githubusercontent.com/101499377/173882222-6d30edff-bc3a-4b80-82ff-cdc3d2efb703.png)
 ![image](https://user-images.githubusercontent.com/101499377/173883816-344b557d-6fb8-4676-8b40-f3d58b28673f.png)
 ### Membuat Menu Admin.
-    Menu admin adalah untuk proses CRUD data artikel. Buat method baru pada Controller Artikel dengan nama admin_index().<p>
+Menu admin adalah untuk proses CRUD data artikel. Buat method baru pada Controller Artikel dengan nama admin_index()<p>
      ![image](https://user-images.githubusercontent.com/101499377/174116709-00fae657-c153-446d-9f46-e113ad21b4f7.png)<p>
 Selanjutnya buat view untuk tampilan admin dengan nama admin_index.php<p>
  ![image](https://user-images.githubusercontent.com/101499377/174117612-a5009dcd-798b-4b87-945a-87d97eb8e2be.png)<p>
