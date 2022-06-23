@@ -103,7 +103,7 @@ Belum ada data yang diampilkan. Kemudian coba tambahkan beberapa data pada datab
 ![image](https://user-images.githubusercontent.com/101499377/173883816-344b557d-6fb8-4676-8b40-f3d58b28673f.png)
 ### Membuat Menu Admin.
 Menu admin adalah untuk proses CRUD data artikel. Buat method baru pada Controller Artikel dengan nama admin_index()<p>
-     ![image](https://user-images.githubusercontent.com/101499377/174116709-00fae657-c153-446d-9f46-e113ad21b4f7.png)<p>
+ ![image](https://user-images.githubusercontent.com/101499377/174116709-00fae657-c153-446d-9f46-e113ad21b4f7.png)<p>
 Selanjutnya buat view untuk tampilan admin dengan nama admin_index.php<p>
  ![image](https://user-images.githubusercontent.com/101499377/174117612-a5009dcd-798b-4b87-945a-87d97eb8e2be.png)<p>
 Tambahkan routing untuk menu admin seperti berikut:<p>
@@ -112,13 +112,13 @@ Akses menu admin dengan url http://localhost:8080/admin/artikel<p>
   ![image](https://user-images.githubusercontent.com/101499377/174127057-66f27c8a-7a45-4a84-b7b0-6f929a3ea58c.png)<p>
 ### Menambah Data Artikel
    Tambahkan fungsi/method baru pada Controller Artikel dengan nama add()<p>
-    ![image](https://user-images.githubusercontent.com/101499377/174128338-6b669aaf-2d9c-4b77-ae5b-10a8c3e38eef.png)<p>
+ ![image](https://user-images.githubusercontent.com/101499377/174128338-6b669aaf-2d9c-4b77-ae5b-10a8c3e38eef.png)<p>
 Kemudian buat view untuk form tambah dengan nama form_add.php<p>
  ![image](https://user-images.githubusercontent.com/101499377/174128703-f825b2a6-cba8-4a19-b729-fc7ea071216c.png)<p>
 ![image](https://user-images.githubusercontent.com/101499377/174128872-0b678576-f1e0-471d-b22c-86ca375f446e.png)
 ### Mengubah Data.
   Tambahkan fungsi/method baru pada Controller Artikel dengan nama edit()<p>
-   ![image](https://user-images.githubusercontent.com/101499377/174129395-5b90d246-5e22-41af-86fa-f3ea81ec546b.png)<p>
+ ![image](https://user-images.githubusercontent.com/101499377/174129395-5b90d246-5e22-41af-86fa-f3ea81ec546b.png)<p>
 Kemudian buat view untuk form tambah dengan nama form_edit.php<p>
  ![image](https://user-images.githubusercontent.com/101499377/174130115-8c18c7be-f5c2-4aab-8338-adc25c5ca424.png)<p>
 ![image](https://user-images.githubusercontent.com/101499377/174130196-71b951cd-793b-46ea-ade8-432b125972f8.png)<p>
@@ -139,7 +139,7 @@ Kemudian buat view untuk form tambah dengan nama form_edit.php<p>
    Buat direktori baru dengan nama user pada direktori app/views, kemudian buat file baru dengan nama login.php.<p>
     ![image](https://user-images.githubusercontent.com/101499377/175293319-0de96dad-15de-4494-b1df-07e54dd0dd91.png)<p>
 ### Membuat Database Seeder.
-    Database seeder digunakan untuk membuat data dummy. Untuk keperluan ujicoba modullogin, kita perlu memasukkan data user dan password kedaalam database. Untuk itu buat database seeder untuk tabel user. Buka CLI, kemudian tulis perintah berikut:<p>
+Database seeder digunakan untuk membuat data dummy. Untuk keperluan ujicoba modullogin, kita perlu memasukkan data user dan password kedaalam database. Untuk itu buat database seeder untuk tabel user. Buka CLI, kemudian tulis perintah berikut:<p>
  ![image](https://user-images.githubusercontent.com/101499377/175293643-dc0c5b1a-2f36-4dac-a2bc-b7f319c6e4c7.png)<p>
 Selanjutnya, buka file UserSeeder.php yang berada di lokasi direktori /app/Database/Seeds/UserSeeder.php kemudian isi dengan kode berikut:<p>
  ![image](https://user-images.githubusercontent.com/101499377/175293786-0b4f7dd9-0a4e-4559-9392-18b3683b1305.png)<p>
