@@ -140,7 +140,7 @@ Kemudian buat view untuk form tambah dengan nama form_edit.php<p>
     ![image](https://user-images.githubusercontent.com/101499377/175293319-0de96dad-15de-4494-b1df-07e54dd0dd91.png)<p>
 ### Membuat Database Seeder.
     Database seeder digunakan untuk membuat data dummy. Untuk keperluan ujicoba modullogin, kita perlu memasukkan data user dan password kedaalam database. Untuk itu buat database seeder untuk tabel user. Buka CLI, kemudian tulis perintah berikut:<p>
-     ![image](https://user-images.githubusercontent.com/101499377/175293643-dc0c5b1a-2f36-4dac-a2bc-b7f319c6e4c7.png)
+ ![image](https://user-images.githubusercontent.com/101499377/175293643-dc0c5b1a-2f36-4dac-a2bc-b7f319c6e4c7.png)<p>
 Selanjutnya, buka file UserSeeder.php yang berada di lokasi direktori /app/Database/Seeds/UserSeeder.php kemudian isi dengan kode berikut:<p>
  ![image](https://user-images.githubusercontent.com/101499377/175293786-0b4f7dd9-0a4e-4559-9392-18b3683b1305.png)<p>
 Selanjutnya buka kembali CLI dan ketik perintah berikut:<p>
